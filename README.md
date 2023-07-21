@@ -1,5 +1,4 @@
 # BMI Calculator
-ISCS 30.36 - Web Accessibility Exercise
 
 ## Project Description
 A simple BMI Calculator.
