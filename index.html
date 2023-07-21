@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 	<head>
 		<meta charset = "utf-8">
 		<title>BMI Calculator</title>
+		<script src="script.js" defer></script>
 	</head>
 	<body>
 		<div class = "calculator">
 			<h1>BMI Calculator</h1>
 			<p>Please enter your height and weight.</p>
 			<p>Height (in cm)</p>
-			<input type = "text">
+			<input type = "text" id="height"><br><span id="height_error"></span>
 			<p>Weight (in kg)</p>
-			<input type = "text">
+			<input type = "text" id="weight"><br><span id="weight_error"></span>
 			<p></p>
-			<button>Calculate</button>
+			<p id="result"></p>
+			<p id="bmi"></p>
+			<button id="calc">Calculate</button>
+			
 		</div>
 		<div class = "bmiarticles">
 			<h2>More About BMI</h2>
